@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  background-color: #efc1c1;
+  font-family: 'Serif Italic', serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; /* Center the container */
+  align-items: center; /* Center the container */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* Form Styles */
+.form-inline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.form-inline input {
+  flex: 1;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+  padding: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-inline input:focus {
+  border-color: #218838;
+  outline: none;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+/* Table Styles */
+.table {
+  margin-top: 20px;
+  width: 50%; /* Increase the table width */
+  border-radius: 10px;
+  background: #ab9797;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  table-layout: fixed; /* Ensure table layout is fixed */
+}
+
+.table th, .table td {
+  text-align: center;
+  color: #121212;
+  word-wrap: break-word; /* Ensure long URLs wrap */
+}
+
+.table a {
+  color: #476bee;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.table a:hover {
+  color: #323ba2;
+}
+
+/* Content Styles */
+.content {
+  width: 100%; /* Ensure the content takes full width */
+  display: flex;
+  justify-content: center; /* Center the content */
+  align-items: center;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.table-container {
+  width: 100%; /* Make table container full width */
+  display: flex;
+  justify-content: center; /* Center the table container */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Center the image */
+  align-items: center;
+  margin-top: 20px; /* Add some margin for spacing */
+}
+
+.side-image {
+  max-width: 150px;
+  max-height: 150px;
+}
